@@ -46,7 +46,7 @@ router.get("/:_userId", async (req, res) => {
     try {
         const userId = req.params
         console.log("여깁니다!", userId)
-        // if (!_postId) {
+        // if (!_userId) {
         //     return res.status(400).json({ message: '데이터 형식이 올바르지 않습니다' })
         // }
 
